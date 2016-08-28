@@ -1,12 +1,11 @@
 /* Responsive */
 
 @media only screen and (max-width:769px) {
-	.container-fluid {width:100%;}
+	.container-fluid {width:100%;margin:0% -7%;}
 	.slider {display:none;}
 	.panel {display:none;}
 	header {border:1px solid #eee;}
 	section {background:#ffffff; padding:3%;}
-	main {margin:0% -7%;}
 }
 
 @media only screen and (min-width:769px) {
