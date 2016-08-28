@@ -6,7 +6,6 @@
 	.panel {display:none;}
 	header {border:1px solid #eee;}
 	section {background:#ffffff; padding:3%;}
-	main {margin:0% -5%;}
 }
 
 @media only screen and (min-width:769px) {
