@@ -4,8 +4,8 @@
 	.container-fluid {min-width:100%;}
 	.slider {display:none;}
 	.panel {display:none;}
-	header #title {font-size:4em;line-height:3.5em;}
-	section {background:#ffffff;padding:2%;}
+	header #title {font-size:1.7em;}
+	section {background:#ffffff;padding:2%;min-width:80%;}
 	main {margin:0% -8%;
 }
 
