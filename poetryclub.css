@@ -66,9 +66,7 @@ nav a {
 
 nav a:hover {color:#A78BC9;}
 
-body {
-	font:normal 85% "source sans pro", calibri, sans-serif;
-}
+body {font:normal 13px "source sans pro", calibri, sans-serif;}
 
 h1, h2, #title {font-family:"old standard tt", calibri, serif}
 
