@@ -2,10 +2,10 @@
 
 @media only screen and (max-width:769px) {
 	body {width:100%;}
-	.slider {display:none;}
 	.panel {display:none;}
 	header {border:1px solid #eee;}
-	section {background:#ffffff; padding:3%;margin:2%;}
+	#title {font-size:2em;
+	section {background:#ffffff; padding:3%;}
 }
 
 @media only screen and (min-width:769px) {
