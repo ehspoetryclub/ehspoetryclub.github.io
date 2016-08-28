@@ -1,12 +1,11 @@
 /* Responsive */
 
 @media only screen and (max-width:769px) {
-	.container-fluid {min-width:100%;}
+	body {width:100%;}
 	.slider {display:none;}
 	.panel {display:none;}
-	header #title {font-size:110%;}
-	section {background:#ffffff;padding:2%;}
-	main {margin:0% -5%;
+	header {border:1px solid #eee;}
+	section {background:#ffffff; padding:3%;}
 }
 
 @media only screen and (min-width:769px) {
@@ -33,6 +32,8 @@
 html, body {
 	margin:0px;
 	padding:0px;
+	width:100%;
+	height:100%;
 }
 
 .container-fluid {
@@ -65,7 +66,9 @@ nav a {
 
 nav a:hover {color:#A78BC9;}
 
-body {font:normal 13px "source sans pro", calibri, sans-serif;}
+body {
+	font:normal 85% "source sans pro", calibri, sans-serif;
+}
 
 h1, h2, #title {font-family:"old standard tt", calibri, serif}
 
