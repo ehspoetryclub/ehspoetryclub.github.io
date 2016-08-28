@@ -4,8 +4,8 @@
 	.slider {display:none;}
 	.panel {display:none;}
 	header {border:1px solid #eee;}
-	#title {font-size:2em;}
-	section {background:#ffffff; padding:2%;min-width:80%;}
+	#title {font-size:5em;}
+	section {background:#ffffff; padding:2%;min-width:100%;}
 }
 
 @media only screen and (min-width:769px) {
