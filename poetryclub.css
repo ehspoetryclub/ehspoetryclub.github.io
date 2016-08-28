@@ -1,7 +1,7 @@
 /* Responsive */
 
 @media only screen and (max-width:769px) {
-	body {min-width:100%;}
+	.container-fluid {width:100%;}
 	.slider {display:none;}
 	.panel {display:none;}
 	header {border:1px solid #eee;}
