@@ -41,8 +41,8 @@ html, body {
 header {text-align:center;}
 
 #title {
-	padding:7% 5%;
-	font:normal 6em  "old standard tt", calibri, serif;
+	padding:5% 4%;
+	font:normal 4em  "old standard tt", calibri, serif;
 	background:#ffffff;
 	text-transform:uppercase;
 	letter-spacing:20px;
@@ -63,7 +63,7 @@ nav a {
 
 nav a:hover {color:#A78BC9;}
 
-body {font:normal 13.5px "source sans pro", calibri, sans-serif;}
+body {font:normal 14px "source sans pro", calibri, sans-serif;}
 
 h1, h2, #title {font-family:"old standard tt", calibri, serif;}
 
