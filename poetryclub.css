@@ -5,8 +5,8 @@
 	.slider {display:none;}
 	.panel {display:none;}
 	header #title {font-size:1.8em;}
-	nav {display:none;}
-	footer span {display:block;}
+	nav a {display:none;}
+	footer a:last-child {display:block;}
 	section {background:#ffffff; padding:5%;}
 	main {margin:0% -3%;}
 }
