@@ -6,7 +6,7 @@
 	.panel {display:none;}
 	header #title {font-size:2.3em;letter-spacing:4px;}
 	nav a {display:none;}
-	footer span {display:block;}
+	footer span {display:inline;}
 	section {background:#ffffff; padding:5%;}
 }
 
