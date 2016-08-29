@@ -42,7 +42,7 @@ header {text-align:center;}
 
 #title {
 	padding:3%;
-	font:normal 300%  "old standard tt", calibri, serif;
+	font:normal 6em  "old standard tt", calibri, serif;
 	background:#ffffff;
 	text-transform:uppercase;
 	letter-spacing:15px;
@@ -56,6 +56,7 @@ nav {
 
 nav a {
 	margin-left:5%;
+	font-size:1.15em;
 	text-transform:uppercase;
 	letter-spacing:2px;
 }
@@ -235,4 +236,4 @@ footer p:nth-child(1) {
 	padding-bottom:5px;
 }
 
-footer a:last-child {display:none;}
+footer a:nth-child(3) {display:none;}
