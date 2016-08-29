@@ -35,13 +35,16 @@ html, body {
 	padding:0px;
 }
 
-.container-fluid {width:100%;}
+.container-fluid {
+	width:80%;
+	margin:auto;
+}
 
 header {text-align:center;}
 
 #title {
 	padding:7% 4%;
-	font:normal 3.7em  "old standard tt", bodoni mt, serif;
+	font:normal 3.9em  "old standard tt", bodoni mt, serif;
 	background:#ffffff;
 	text-transform:uppercase;
 	letter-spacing:18px;
@@ -62,11 +65,18 @@ nav a {
 
 nav a:hover {color:#A78BC9;}
 
-body {font:normal 14px "source sans pro", calibri, sans-serif;}
+body {
+	font:normal 14px "source sans pro", calibri, sans-serif;
+	background:#262626;
+}
 
 h1, h2, #title {font-family:"old standard tt", calibri, serif;}
 
-h1, h2 {text-transform:uppercase;letter-spacing:2px;color:#000000;}
+h1, h2 {
+	text-transform:uppercase;
+	letter-spacing:2px;color:#000000;
+}
+
 h1 {font-size:1.5em;}
 h2 {font-size:1.3em;}
 
