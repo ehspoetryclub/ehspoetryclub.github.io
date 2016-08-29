@@ -1,7 +1,7 @@
 /* Responsive */
 
 @media only screen and (max-width:769px) {
-	.container-fluid {min-width:100%;}
+	.container-fluid {min-width:calc(100% - 10px);}
 	.slider {display:none;}
 	.panel {display:none;}
 	header #title {font-size:1.9em;letter-spacing:3px;}
