@@ -5,7 +5,8 @@
 	.slider {display:none;}
 	.panel {display:none;}
 	header #title {font-size:1.8em;}
-	nav a {font-size:0.6em;}
+	nav a {display:none;}
+	footer span {display:block;}
 	section {background:#ffffff; padding:5%;}
 	main {margin:0% -3%;}
 }
@@ -235,3 +236,5 @@ footer {
 footer p:nth-child(1) {
 	padding-bottom:5px;
 }
+
+footer span {display:none;}
