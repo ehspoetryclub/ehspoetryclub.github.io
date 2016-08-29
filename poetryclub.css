@@ -42,7 +42,7 @@ header {text-align:center;}
 
 #title {
 	padding:7% 4%;
-	font:normal 3.6em  "old standard tt", bodoni, serif;
+	font:bold 3.6em  "old standard tt", bodoni mt, serif;
 	background:#ffffff;
 	text-transform:uppercase;
 	letter-spacing:17px;
