@@ -45,7 +45,7 @@ header {text-align:center;}
 	font:normal 3.4em  "old standard tt", calibri, serif;
 	background:#ffffff;
 	text-transform:uppercase;
-	letter-spacing:15px;
+	letter-spacing:17px;
 }
 
 nav {
@@ -56,7 +56,7 @@ nav {
 
 nav a {
 	margin-left:5%;
-	font-size:1.15em;
+	font-size:0.95em;
 	text-transform:uppercase;
 	letter-spacing:2px;
 }
