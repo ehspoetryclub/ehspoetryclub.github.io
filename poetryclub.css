@@ -41,8 +41,8 @@ html, body {
 header {text-align:center;}
 
 #title {
-	padding:5% 4%;
-	font:normal 200%  "old standard tt", calibri, serif;
+	padding:3%;
+	font:normal 300%  "old standard tt", calibri, serif;
 	background:#ffffff;
 	text-transform:uppercase;
 	letter-spacing:15px;
