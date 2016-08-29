@@ -4,7 +4,8 @@
 	.container-fluid {min-width:100%;}
 	.slider {display:none;}
 	.panel {display:none;}
-	section {background:#ffffff; padding:3%;}
+	header #title {font-size:2em;}
+	section {background:#ffffff; padding:5%;}
 }
 
 @media only screen and (min-width:769px) {
