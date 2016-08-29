@@ -75,7 +75,9 @@ h1, h2, #title {font-family:"old standard tt", calibri, serif;}
 
 h1, h2 {
 	text-transform:uppercase;
-	letter-spacing:2px;color:#000000;
+	letter-spacing:2px;
+	color:#000000;
+	line-height:110%;
 }
 
 h1 {font-size:1.5em;}
