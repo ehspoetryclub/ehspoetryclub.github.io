@@ -5,7 +5,7 @@
 	.slider {display:none;}
 	.panel {display:none;}
 	header #title {font-size:1.8em;}
-	nav a {display:none;}
+	nav {display:none;}
 	footer span {display:block;}
 	section {background:#ffffff; padding:5%;}
 	main {margin:0% -3%;}
