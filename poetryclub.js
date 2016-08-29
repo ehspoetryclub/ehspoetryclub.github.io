@@ -1,5 +1,5 @@
 var load = function(){
-	$('body').delay(300).fadeToggle(400, "linear");
+	$('#pageload').delay(300).fadeIn(800, "swingr");
 } // loads page
 
 var slider = function () {
