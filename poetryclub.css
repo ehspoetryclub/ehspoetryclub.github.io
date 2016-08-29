@@ -128,8 +128,8 @@ ul {
 #slides {
 	display:inline-block;
 	position:relative;
-	width:55%;
-	margin:0% 15%;
+	width:60%;
+	margin:0% 10%;
 }
 
 .slide:nth-child(1) {
@@ -143,7 +143,7 @@ ul {
 .slide {
 	background:#ffffff;
 	padding:5%;
-	height:550px;
+	height:490px;
 	overflow:scroll;
 	overflow-x:hidden;
 	display:none;
