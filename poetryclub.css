@@ -42,10 +42,10 @@ header {text-align:center;}
 
 #title {
 	padding:7% 4%;
-	font:bold 3.6em  "old standard tt", bodoni mt, serif;
+	font:normal 3.7em  "old standard tt", bodoni mt, serif;
 	background:#ffffff;
 	text-transform:uppercase;
-	letter-spacing:17px;
+	letter-spacing:18px;
 }
 
 nav {
@@ -235,5 +235,3 @@ footer {
 footer p:nth-child(1) {
 	padding-bottom:5px;
 }
-
-footer a:nth-child(3) {display:none;}
