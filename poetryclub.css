@@ -41,8 +41,8 @@ html, body {
 header {text-align:center;}
 
 #title {
-	padding:3%;
-	font:normal 4.5em  "old standard tt", calibri, serif;
+	padding:7% 5%;
+	font:normal 3.5em  "old standard tt", calibri, serif;
 	background:#ffffff;
 	text-transform:uppercase;
 	letter-spacing:15px;
@@ -56,7 +56,7 @@ nav {
 
 nav a {
 	margin-left:5%;
-	font-size:1.1em;
+	font-size:1.15em;
 	text-transform:uppercase;
 	letter-spacing:2px;
 }
