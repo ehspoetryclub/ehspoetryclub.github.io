@@ -42,7 +42,7 @@ header {text-align:center;}
 
 #title {
 	padding:5% 4%;
-	font:normal 4em  "old standard tt", calibri, serif;
+	font:normal 5em  "old standard tt", calibri, serif;
 	background:#ffffff;
 	text-transform:uppercase;
 	letter-spacing:20px;
@@ -236,4 +236,4 @@ footer p:nth-child(1) {
 	padding-bottom:5px;
 }
 
-footer span {display:none;}
+footer a:last-child {display:none;}
