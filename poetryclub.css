@@ -42,10 +42,10 @@ header {text-align:center;}
 
 #title {
 	padding:5% 4%;
-	font:normal 130%  "old standard tt", calibri, serif;
+	font:normal 200%  "old standard tt", calibri, serif;
 	background:#ffffff;
 	text-transform:uppercase;
-	letter-spacing:20px;
+	letter-spacing:15px;
 }
 
 nav {
