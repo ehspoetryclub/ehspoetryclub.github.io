@@ -4,9 +4,10 @@
 	.container-fluid {min-width:100%;}
 	.slider {display:none;}
 	.panel {display:none;}
-	header #title {font-size:2.5em;}
-	nav a {font-size:0.9em;}
+	header #title {font-size:1.8em;}
+	nav a {margin-right:10px;}
 	section {background:#ffffff; padding:5%;}
+	main {margin:0% -3%;}
 }
 
 @media only screen and (min-width:769px) {
