@@ -81,7 +81,7 @@ h1, h2 {
 }
 
 h1 {font-size:1.5em;}
-h2 {font-size:1em;}
+h2 {font-size:1.1em;}
 
 a {
 	color:#878787;
@@ -230,6 +230,7 @@ table {width:100%;}
 
 #modalcontainer2 ul {padding-left:2%;}
 #modalcontainer3 ul, #calendar2 ul {padding-left:5%;}
+#calender2 td:nth-child(2) {letter-spacing:1px;text-transform:uppercase;}
 
 /* Footer */
 
