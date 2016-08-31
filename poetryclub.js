@@ -84,15 +84,15 @@ var current = function (){
 		case 10:
 		case 11:
 		case 0:
-			$('#month2').clone().appendTo('#calendar2');
+			$('.month2').clone().appendTo('#calendar2');
 			break;
 		case 1:
 		case 2:
 		case 3:
-			$('#month3').clone().appendTo('#calendar2');
+			$('.month3').clone().appendTo('#calendar2');
 			break;
 		case 4:
-			$('#month4').clone().appendTo('#calendar2');
+			$('.month4').clone().appendTo('#calendar2');
 			break;
 		default:
 			break;
