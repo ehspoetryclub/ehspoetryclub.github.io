@@ -92,6 +92,7 @@ var current = function (){
 			$('.month3').clone().appendTo('#calendar2');
 			break;
 		case 4:
+		case 5:
 			$('.month4').clone().appendTo('#calendar2');
 			break;
 		default:
