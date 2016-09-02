@@ -44,7 +44,7 @@ header {text-align:center;}
 
 #title {
 	padding:7% 4%;
-	font:normal 3.4em  "old standard tt", bodoni mt, serif;
+	font:normal 120%  "old standard tt", bodoni mt, serif;
 	background:#ffffff;
 	text-transform:uppercase;
 	letter-spacing:18px;
@@ -146,7 +146,7 @@ ul {
 .slide {
 	background:#ffffff;
 	padding:5%;
-	height:490px;
+	height:50%;
 	overflow:scroll;
 	overflow-x:hidden;
 	display:none;
