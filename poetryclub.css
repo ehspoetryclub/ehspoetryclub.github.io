@@ -205,9 +205,9 @@ ul {
 #modalcontainer, #modalcontainer2, #modalcontainer3 {
 	background:#fff;
 	padding:25px;
-	height:75%;
-	width:75%;
-	margin:5% 8%;
+	height:65%;
+	width:85%;
+	margin:5% 7%;
 	overflow-y:scroll;
 	overflow-x:hidden;
 }
