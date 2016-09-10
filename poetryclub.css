@@ -206,16 +206,15 @@ ul {
 	background:#fff;
 	border:1px solid #eee;
 	padding:25px;
-	height:60%;
-	width:60%;
-	margin-top:6.5%;
-	margin-left:17.9%;
+	height:90%;
+	width:90%;
+	margin:5%;
 	overflow-y:scroll;
 	overflow-x:hidden;
 }
 
 .modalinfo {
-	padding:30px 25px;
+	padding:50px 45px;
 }
 	
 .modal h2, #calendar2 h2 {
