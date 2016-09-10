@@ -152,11 +152,6 @@ ul {
 	display:none;
 }
 
-.slide p:nth-child(1) {
-	color:#d5d5d5;
-	font-size:0.9em;
-}
-
 .active-slide {
 	display:block;
 }
@@ -233,7 +228,7 @@ table {width:100%;}
 
 #modalcontainer2 ul {padding-left:2%;}
 #modalcontainer3 ul {padding-left:5%;}
-#calendar span {letter-spacing:0.5px;text-transform:uppercase;font-size:0.9em;}
+#calendar span {letter-spacing:0.5px;text-transform:uppercase;font-size:0.88em;}
 
 /* Footer */
 
