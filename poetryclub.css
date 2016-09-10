@@ -17,7 +17,7 @@
 
 ::-webkit-scrollbar {
 	width:7px;
-	background:#eee;
+	background:#ffffff;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -204,11 +204,10 @@ ul {
 
 #modalcontainer, #modalcontainer2, #modalcontainer3 {
 	background:#fff;
-	border:1px solid #eee;
 	padding:25px;
-	height:70%;
+	height:75%;
 	width:80%;
-	margin:4%;
+	margin:5%;
 	overflow-y:scroll;
 	overflow-x:hidden;
 }
