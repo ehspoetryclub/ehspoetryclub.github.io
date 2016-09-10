@@ -59,14 +59,14 @@ nav a {
 	padding-right:5%;
 	margin-left:5%;
 	text-transform:uppercase;
-	font-size:0.95em;
+	font-size:0.9em;
 	letter-spacing:2px;
 }
 
 nav a:hover {color:#A78BC9;}
 
 body {
-	font:normal 13.5px "source sans pro", calibri, sans-serif;
+	font:normal 13px "source sans pro", calibri, sans-serif;
 	line-height:100.5%;
 	background:#eeeeee;
 }
