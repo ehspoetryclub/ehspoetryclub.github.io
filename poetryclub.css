@@ -80,8 +80,8 @@ h1, h2 {
 	line-height:110%;
 }
 
-h1 {font-size:1.3em;}
-h2 {font-size:1.05em;}
+h1 {font-size:1.3em;font-weight:none;}
+h2 {font-size:1.08em;font-weight:none;}
 
 a {
 	color:#878787;
