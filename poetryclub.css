@@ -206,8 +206,8 @@ ul {
 	background:#fff;
 	padding:25px;
 	height:75%;
-	width:80%;
-	margin:5%;
+	width:75%;
+	margin:5% 8%;
 	overflow-y:scroll;
 	overflow-x:hidden;
 }
