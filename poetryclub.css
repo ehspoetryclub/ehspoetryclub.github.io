@@ -36,7 +36,7 @@ html, body {
 }
 
 .container-fluid {
-	width:80%;
+	width:75%;
 	margin:auto;
 }
 
@@ -44,7 +44,7 @@ header {text-align:center;}
 
 #title {
 	padding:7% 4%;
-	font:normal 3.45em  "old standard tt", bodoni mt, serif;
+	font:normal 3em  "old standard tt", bodoni mt, serif;
 	background:#ffffff;
 	text-transform:uppercase;
 	letter-spacing:18px;
