@@ -195,8 +195,8 @@ ul {
 .modal {
 	z-index:9;
 	display:none;
-	background:rgb(0,0,0);
-	background:rgba(0,0,0,0.7);
+	background:rgb(255,255,255);
+	background:rgba(255,255,255,0.7);
 	width:100%;
 	height:100%;
 	position:fixed;
@@ -206,9 +206,9 @@ ul {
 	background:#fff;
 	border:1px solid #eee;
 	padding:25px;
-	height:90%;
-	width:90%;
-	margin:5%;
+	height:60%;
+	width:60%;
+	margin:4%;
 	overflow-y:scroll;
 	overflow-x:hidden;
 }
