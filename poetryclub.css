@@ -1,7 +1,7 @@
 /* Responsive */
 
 @media only screen and (max-width:769px) {
-	.container-fluid {min-width:calc(100% - 50px);}
+	.container-fluid {min-width:calc(100% - 40px);}
 	.slider {display:none;}
 	.panel {display:none;}
 	header #title {font-size:2.2em;letter-spacing:8px;}
@@ -150,6 +150,10 @@ ul {
 	overflow:scroll;
 	overflow-x:hidden;
 	display:none;
+}
+
+.slide p {
+	font-size:0.85em;
 }
 
 .active-slide {
