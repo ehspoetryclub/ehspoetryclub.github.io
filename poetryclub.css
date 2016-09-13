@@ -4,7 +4,7 @@
 	.container-fluid {min-width:100%;}
 	.slider {display:none;}
 	.panel {display:none;}
-	header #title {font-size:2.2em;letter-spacing:5px;}
+	header #title {font-size:2em;letter-spacing:5px;}
 	nav a {display:none;}
 	section {background:#ffffff; padding:2% 5% 6% 5%;}
 }
