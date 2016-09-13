@@ -1,7 +1,7 @@
 /* Responsive */
 
 @media only screen and (max-width:769px) {
-	.container-fluid {min-width:calc(100% - 30px);}
+	.container-fluid {min-width:calc(100% - 50px);}
 	.slider {display:none;}
 	.panel {display:none;}
 	header #title {font-size:2.2em;letter-spacing:8px;}
@@ -66,7 +66,7 @@ nav a {
 nav a:hover {color:#A78BC9;}
 
 body {
-	font:normal 14px "source sans pro", calibri, sans-serif;
+	font:normal 15px "source sans pro", calibri, sans-serif;
 	line-height:100.5%;
 	background:#eeeeee;
 }
