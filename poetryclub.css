@@ -6,7 +6,7 @@
 	.panel {display:none;}
 	header #title {font-size:2.2em;letter-spacing:8px;}
 	nav a {display:none;}
-	section {background:#ffffff; padding:4% 5% 5.5% 5%;}
+	section {background:#ffffff; padding:2% 5% 5.5% 5%;}
 }
 
 @media only screen and (min-width:769px) {
