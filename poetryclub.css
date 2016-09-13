@@ -4,7 +4,7 @@
 	.container-fluid {min-width:100%;}
 	.slider {display:none;}
 	.panel {display:none;}
-	header #title {font-size:1.5em;letter-spacing:2px;}
+	header #title {font-size:1.7em;letter-spacing:2px;}
 	nav a {display:none;}
 	body {font-size:105%;}
 	section {background:#ffffff; padding:2% 5% 6% 5%;}
@@ -75,7 +75,7 @@ body {
 h1, h2, #title {font-family:"old standard tt", calibri, serif;}
 
 h1, h2 {
-	text-transform:uppercase;
+	text-transform:capitalize;
 	letter-spacing:2px;
 	color:#000000;
 	line-height:110%;
