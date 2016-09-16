@@ -4,14 +4,10 @@
 	.container-fluid {min-width:100%;}
 	.slider {display:none;}
 	.panel {display:none;}
-	header #title {font-size:1.6em;letter-spacing:2px;}
+	header #title {font-size:2.2em;letter-spacing:3px;}
 	nav a {display:none;}
 	body {font-size:105%;}
 	section {background:#ffffff; padding:2% 5% 6% 5%;}
-}
-
-@media only screen and (min-width:400px;max-width:768px;) {
-	header #title{font-size:2.3em;}
 }
 
 @media only screen and (min-width:769px) {
