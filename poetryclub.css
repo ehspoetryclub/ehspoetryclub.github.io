@@ -1,6 +1,6 @@
 /* Responsive */
 
-@media only screen and (max-width:769px) {
+@media only screen and (max-width:768px) {
 	.container-fluid {min-width:100%;}
 	.slider {display:none;}
 	.panel {display:none;}
@@ -12,6 +12,7 @@
 
 @media only screen and (min-width:769px) {
 	section {display:none;}
+	header #title{font-size:2.3em;}
 }
 
 /* Scrollbar */
