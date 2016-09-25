@@ -67,7 +67,7 @@ nav a {
 nav a:hover {color:#A78BC9;}
 
 body {
-	font:normal 15px "source sans pro", calibri, sans-serif;
+	font:normal 15.5px "source sans pro", calibri, sans-serif;
 	line-height:100.5%;
 	background:#eeeeee;
 }
@@ -147,7 +147,7 @@ ul {
 .slide {
 	background:#ffffff;
 	padding:2%;
-	height:20em;
+	height:30em;
 	overflow:scroll;
 	overflow-x:hidden;
 	display:none;
