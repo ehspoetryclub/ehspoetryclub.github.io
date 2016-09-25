@@ -140,10 +140,6 @@ ul {
 	text-align:center;
 }
 
-.slide:nth-child(1) p {
-	margin-top:30%;
-}
-
 .slide {
 	background:#ffffff;
 	padding:4%;
