@@ -147,7 +147,7 @@ ul {
 .slide {
 	background:#ffffff;
 	padding:2%;
-	height:40em;
+	height:20em;
 	overflow:scroll;
 	overflow-x:hidden;
 	display:none;
