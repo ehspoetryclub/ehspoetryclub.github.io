@@ -72,7 +72,7 @@ var contact = function(){
 	$('#contact2 td').wrap("<span>").css("display","inline");
 	$('#contact2 span:nth-child(odd)').css({"font-weight":"bold","margin-right":"25%"});
 	$('#contact2 td, #contact2 tr, #contact2 table').contents().unwrap();	
-} // only clones president's name and replaces table with inline
+} // only clones contact info and replaces table with inline
 
 var current = function (){
 	switch (new Date().getMonth()) {
