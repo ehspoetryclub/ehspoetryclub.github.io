@@ -2,7 +2,7 @@
 
 @media only screen and (max-width:768px) {
 	.container-fluid {min-width:90%;}
-	#calendar span {font-size:14px;display:block;}
+	#calendar span {display:block;}
 }
 
 /* Scrollbar */
@@ -41,7 +41,7 @@ html, body {
 	padding:2%;
 }
 
-header {
+header, nav {
 	text-align:center;
 }
 
