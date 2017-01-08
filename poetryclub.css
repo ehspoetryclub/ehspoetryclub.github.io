@@ -4,7 +4,8 @@
 	.container-fluid {min-width:90%;}
 	#title {font-size:2.2em!important;}
 	#calendar span {display:block;padding:5% 0%;}
-	nav {display:none;}
+	nav {min-width:100%;}
+	#more, .last {display:none;}
 }
 
 /* Scrollbar */
@@ -75,7 +76,7 @@ nav a {margin-right:30px;}
 }
 
 #moreinfo {
-	padding:0.5em 0em;
+	padding:1em 0em 0.5em 0em;
 	display:none;
 }
 
