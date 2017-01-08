@@ -41,7 +41,7 @@ html, body {
 	padding:2%;
 }
 
-header, nav {
+header {
 	text-align:center;
 }
 
@@ -54,7 +54,12 @@ header, nav {
 	letter-spacing:0.2em;
 }
 
-nav {text-transform:uppercase;letter-spacing:0.09em;}
+nav {
+	text-transform:uppercase;
+	letter-spacing:0.09em;
+	width:80%;
+	margin:0px auto;
+}
 
 nav a {margin-right:30px;}
 
