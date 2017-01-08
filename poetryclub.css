@@ -96,8 +96,7 @@ h1, h2, #title {
 	text-transform:lowercase;
 }
 
-h1, h2 {
-	letter-spacing:1px;
+h1, h2, h3 {
 	font-weight:normal;
 	letter-spacing:0.1em;
 	line-height:110%;
@@ -112,6 +111,12 @@ h2 {
 	font-size:1.8em;
 	color:#aCB1DC;
 	margin:3% 0%;
+}
+
+h3 {
+	font-size:1.4em;
+	color:#666666;
+	margin:0.5% 0%;
 }
 
 a {
