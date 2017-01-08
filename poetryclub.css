@@ -4,8 +4,7 @@
 	.container-fluid {min-width:90%;}
 	#title {font-size:2.2em!important;}
 	#calendar span {display:block;padding:5% 0%;}
-	nav {min-width:100%!important;}
-	#more, #mobhide {display:none;}
+	nav {display:none;}
 }
 
 /* Scrollbar */
