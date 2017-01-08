@@ -4,7 +4,7 @@ var load = function(){
 
 var more = function() {
 	$("#more").click(function (){
-		$("#moreinfo").slideToggle(700, "swing");
+		$("#moreinfo").slideToggle(680, "swing");
 	});
 };
 
