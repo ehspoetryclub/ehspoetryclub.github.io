@@ -7,7 +7,7 @@
 	nav {min-width:100%;}
 	.mlast {margin-right:0px;}
 	#more, .last {display:none;}
-	.mshow {display:block;}
+	.mshow {display:block!important;}
 }
 
 /* Scrollbar */
