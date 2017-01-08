@@ -6,7 +6,8 @@
 	#calendar span {display:block;padding:5% 0%;}
 	nav {min-width:100%;}
 	.mlast {margin-right:0px;}
-	.last {display:none;}
+	#more, .last {display:none;}
+	#mshow {display:block;}
 }
 
 /* Scrollbar */
