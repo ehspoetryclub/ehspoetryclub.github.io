@@ -80,6 +80,10 @@ nav a:last-child{margin-right:0px;}
 	display:none;
 }
 
+#moreinfo a {
+	display:block;
+}
+
 body {
 	font:normal 14px "karla", calibri, sans-serif;
 	line-height:150%;
