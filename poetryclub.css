@@ -2,10 +2,9 @@
 
 @media only screen and (max-width:768px) {
 	.container-fluid {min-width:90%;}
-	#calendar span {display:block;}
+	#calendar span {display:block;padding:5% 0%;}
 	nav {min-width:100%;}
-	nav a {margin-right:9px;}
-	#more {display:none;}
+	#more, #mobhide {display:none;}
 }
 
 /* Scrollbar */
