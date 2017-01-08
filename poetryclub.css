@@ -2,10 +2,9 @@
 
 @media only screen and (max-width:768px) {
 	.container-fluid {min-width:90%;}
-	#title {font-size:2em!important;}
+	#title {font-size:2.2em!important;}
 	#calendar span {display:block;padding:5% 0%;}
-	nav {min-width:10%;}
-	nav a {margin-right:150px;}
+	nav {min-width:100%!important;}
 	#more, #mobhide {display:none;}
 }
 
@@ -70,6 +69,7 @@ nav {
 }
 
 nav a {margin-right:30px;}
+nav a:last-child{margin-right:0;}
 
 #more {
 	cursor:pointer;
