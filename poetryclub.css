@@ -4,6 +4,7 @@
 	.container-fluid {min-width:90%;}
 	#calendar span {display:block;}
 	nav {min-width:100%;}
+	nav a {margin-right:9px;}
 	#more {display:none;}
 }
 
