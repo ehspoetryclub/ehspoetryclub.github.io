@@ -68,7 +68,7 @@ nav {
 }
 
 nav a {margin-right:30px;}
-nav a:last-child{margin-right:0px;}
+.last {margin-right:0px;}
 
 #more {
 	cursor:pointer;
