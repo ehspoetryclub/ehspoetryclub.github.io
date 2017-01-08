@@ -49,7 +49,7 @@ header {
 	text-align:center;
 }
 
-#title {
+#title, #title a, #title a:hover {
 	padding:6% 4%;
 	margin:3% 0%;
 	font:normal 3em  "old standard tt", bodoni mt, serif;
