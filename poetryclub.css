@@ -2,7 +2,7 @@
 
 @media only screen and (max-width:768px) {
 	.container-fluid {min-width:90%;}
-	#title {font-size:2.2em;}
+	#title {font-size:2em;}
 	#calendar span {display:block;padding:5% 0%;}
 	nav {min-width:90%;}
 	nav a {margin-right:30%;}
@@ -50,6 +50,10 @@ header {
 }
 
 #title, #title a, #title a:hover {
+	color:#000000;
+}
+
+#title {
 	padding:6% 4%;
 	margin:3% 0%;
 	font:normal 3em  "old standard tt", bodoni mt, serif;
