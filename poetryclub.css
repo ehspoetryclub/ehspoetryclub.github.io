@@ -8,6 +8,7 @@
 	.mlast {margin-right:0px;}
 	#more, .last {display:none;}
 	.mshow {display:block!important;}
+	iframe {width:100%;}
 }
 
 /* Scrollbar */
@@ -166,6 +167,11 @@ l {
 
 svg {
 	margin-right:10px;
+}
+
+iframe {
+	width:560px;
+	height:315px;
 }
 
 /* Footer */
