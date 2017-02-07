@@ -1,5 +1,5 @@
 var load = function(){
-	$("#pageload").delay(300).fadeIn(500, "swing");
+	$("#pageload").delay(300).fadeTo(500, 1);
 }; // loads page
 
 var more = function() {
