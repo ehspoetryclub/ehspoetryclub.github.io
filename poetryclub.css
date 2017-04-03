@@ -2,7 +2,7 @@
 
 @media only screen and (max-width:768px) {
 	.container-fluid {min-width:90%;}
-	#title {font-size:3.2em!important;}
+	#title {font-size:5em!important;}
 	#calendar span {display:block;padding:5% 0%;}
 	nav {min-width:100%;}
 	.mlast {margin-right:0px;}
