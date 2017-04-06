@@ -98,7 +98,7 @@ body {
 
 h1, h2, #title {
 	font-family:"old standard tt", calibri, serif;
-	text-transform:lowercase;
+	text-transform:capitalize;
 }
 
 h1, h2, h3 {
