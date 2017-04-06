@@ -11,21 +11,6 @@
 	iframe {width:100%!important;height:100%!important;}
 }
 
-/* Scrollbar */
-
-::-webkit-scrollbar {
-	width:10px;
-	background:#ffffff;
-}
-
-::-webkit-scrollbar-thumb {
-	background:#000;
-}
-
-::-webkit-scrollbar-track {
-	background:#eee;
-}
-
 /* Main */
 
 #pageload {
