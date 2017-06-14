@@ -24,7 +24,7 @@ html, body {
 }
 
 .container-fluid {
-	width:750px;
+	width:60%;
 	margin:auto;
 	background:#ffffff;
 	border-left:1px solid #eeeeee;
@@ -43,7 +43,7 @@ header {
 #title {
 	padding:6% 4%;
 	margin:3% 0%;
-	font:normal 2.5em  "old standard tt", bodoni mt, serif;
+	font:normal 3em  "old standard tt", bodoni mt, serif;
 	border-top:1px solid #eeeeee;
 	border-bottom:1px solid #eeeeee;
 	letter-spacing:0.1em;
