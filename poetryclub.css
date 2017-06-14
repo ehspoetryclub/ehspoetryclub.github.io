@@ -72,8 +72,11 @@ nav a {margin-right:30px;}
 }
 
 #moreinfo a {
-	display:block;
+	display:inline-block;
+	margin-right:1em
 }
+
+#moreinfo a:last-child {margin-right:0em;}
 
 body {
 	font:normal 14px "karla", calibri, sans-serif;
