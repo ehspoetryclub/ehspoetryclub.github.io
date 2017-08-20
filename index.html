@@ -1,96 +1,160 @@
 <!DOCTYPE html>
+
+<!---
+
+Simple website written with HTML/CSS by Robin Luo (2017)
+
+inline CSS for easy accessibility with given user
+
+--->
 <html lang="en">
 <head>
 <title>EHS Poetry Club</title>
 <link rel="shortcut icon" href="https://raw.githubusercontent.com/ehspoetryclub/ehspoetryclub.github.io/master/favicon.ico" type="image/x-icon" />
-<meta name=viewport content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
-<link href="https://fonts.googleapis.com/css?family=Old+Standard+TT|Karla" rel="stylesheet">
-<link rel="stylesheet" href="poetryclub.css" />
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="poetryclub.js"></script> 
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
+<link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+
+<style type="text/css">
+
+@media only screen and (max-width:768px) {
+	#container {
+		margin:auto 5%!important;
+		width:80%!important;
+	}
+}
+
+body {
+	background:#f5f5f5;
+	color:#000000;
+	margin:0;
+	padding:0;
+	font-size:14px;
+	font-family:work sans, sans-serif;
+	line-height:150%;
+	letter-spacing:0.05em;
+}
+
+a {
+	color:#888888;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#000000;
+}
+
+#container {
+	transform:translate(50% 50%);
+	text-align:center;
+	width:680px;
+	margin:0px auto;
+	height:100%;
+	padding:0% 5%;
+	background:#ffffff;
+}
+
+#title {
+	font-size:2.5em;
+	line-height:150%;
+	text-transform:uppercase;
+	font-weight:bold;
+	padding:13% 0%;
+	letter-spacing:0.2em;
+}
+
+h1, h2, h3, h4, h5 {
+	font-weight:none!important;
+	letter-spacing:0.1em;
+	color:#94A4C6;
+	line-height:130%;
+	margin-bottom:1em;
+}
+
+nav {
+	padding-top:2%;
+	text-transform:uppercase;
+}
+
+nav a, nav span {
+	margin:1em;
+}
+
+section {
+	margin-bottom:13%;
+}
+
+#links a {
+	display:block;
+}
+
+footer {
+	font-size:0.8em;
+	padding:5% 0%;
+}
+
+footer svg {
+	margin:10px;
+}
+
+</style>
+
 </head>
 
 
-<body id="pageload">
-<div class="container-fluid">
+<body>
+<div id="container">
 <header>
 <nav>
 <a href="/">Home</a>
-<a href="https://ehspoetryclub.github.io/poems">Poems</a>
-<a class="mlast" href="https://ehslitmag.github.io">Submit</a>
-<a id="more">Websites</a>
-<a class="last" href="http://www.ecusd7.org/ehs/">EHS</a>
-<div id="moreinfo">
-<a href="https://www.poetryfoundation.org/">Poetry Foundation</a>
-<a href="https://www.poets.org/">poets.org</a>
-<a href="https://www.youtube.com/user/ButtonPoetry">Button Poetry</a>
-<a href="http://www.poetryoutloud.org/">Poetry Out Loud</a>
-</div>
+<a href="http://www.ecusd7.org/ehs/">EHS</a>
 </nav>
-<div id="title"><a href="/">EHS Poetry Club</a></div>
+<div id="title">Poetry Club</div>
 </header>
- 
+
 <main>
 <section id="about">
-<h1>What is Poetry Club? <l></l></h1>
+<h1>What's it about?</h1>
 <p>
-Poetry Club is a family that welcomes all people. We strive to not only help each other improve on analyzing, comprehending, and interpreting poetry, but we also encourage self-expression by providing a comfortable and friendly environment. By reading, writing, sharing, and exploring the vast realm of poetics, Poetry Club enhances everyday english skills and allows for creative ways to explain all aspects of life.
+	Poetry Club welcomes all people. We strive to not only help each other improve on analyzing, comprehending, and interpreting poetry, but we also encourage self-expression by providing a comfortable and friendly environment. By reading, writing, sharing, and exploring poetry, this club enhances everyday English skills and allows for creative ways to explain all aspects of life.
+ <!-- to edit description, edit inside this --> 
 </p>
 <p>
-We meet every Thursdays in room A218!
+	We meet every Thursdays in room A218!
+ <!-- to edit description, edit inside this -->
 </p>
 </section>
 <section id="calendar">
-<h1>Upcoming Events <l></l></h1>
-<p>
-<h2>January</h2>
-<span>26th</span> No meeting 
-</p>	
-<p>
-<h2>February</h2>
-<span>6th</span> Selling flowers and poems with Tri-M
-</p>
-<p>
-<h2>March</h2>
-<span>16th</span> No meeting
-</p>
-<p>
-<h2>April</h2>
-<span>20th</span> No meeting <br/>
-<span>27th</span> Poetry Slam at the Edwardsville Public Library 7-8pm
-</p>
-<p>
-<h2>May</h2>
-<span>11th</span> No meeting
-</p>
+<h1>What's going on?</h1>
+<a class="twitter-timeline" data-width="100%" data-height="750" href="https://twitter.com/ehspoetryclub">Tweets by ehspoetryclub</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</section>
+
+<section id="links">
+<h2>What are some good poetry resources?</h2>
+ <a href="https://www.poetryfoundation.org/">Poetry Foundation</a>
+ <a href="https://www.poets.org/">poets.org</a>
+ <a href="https://www.youtube.com/user/ButtonPoetry">Button Poetry</a>
+ <a href="https://www.youtube.com/user/YOUTHSPEAKS">Youth Speaks</a>
 </section>
 </main>
 
 <!-- Footer -->
 <footer>
-<p><a href="https://twitter.com/ehspoetryclub/">
-<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" enable-background="new 0 0 32 32" viewBox="0 0 32 32" x="0px" y="0px" width="40px" height="40px" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve" version="1.1">
-<path fill="#444444" d="M 32 6.1 c -1.2 0.5 -2.4 0.9 -3.8 1 c 1.4 -0.8 2.4 -2.1 2.9 -3.6 c -1.3 0.8 -2.7 1.3 -4.2 1.6 C 25.7 3.8 24 3 22.2 3 c -3.6 0 -6.6 2.9 -6.6 6.6 c 0 0.5 0.1 1 0.2 1.5 C 10.3 10.8 5.5 8.2 2.2 4.2 c -0.6 1 -0.9 2.1 -0.9 3.3 c 0 2.3 1.2 4.3 2.9 5.5 c -1.1 0 -2.1 -0.3 -3 -0.8 c 0 0 0 0.1 0 0.1 c 0 3.2 2.3 5.8 5.3 6.4 c -0.6 0.1 -1.1 0.2 -1.7 0.2 c -0.4 0 -0.8 0 -1.2 -0.1 c 0.8 2.6 3.3 4.5 6.1 4.6 c -2.2 1.8 -5.1 2.8 -8.2 2.8 c -0.5 0 -1.1 0 -1.6 -0.1 C 2.9 27.9 6.4 29 10.1 29 c 12.1 0 18.7 -10 18.7 -18.7 c 0 -0.3 0 -0.6 0 -0.8 C 30 8.5 31.1 7.4 32 6.1 Z" />
-</svg>
-</a>
-<a href="https://www.instagram.com/ehspoetry/">
-<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" enable-background="new 0 0 32 32" viewBox="0 0 32 32" x="0px" y="0px" width="40px" height="40px" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve" version="1.1">
-<path fill="#444444" d="M 28.2 0 H 3.8 C 1.7 0 0 1.7 0 3.8 v 24.4 C 0 30.3 1.7 32 3.8 32 h 24.4 c 2.1 0 3.8 -1.7 3.8 -3.8 V 3.8 C 32 1.7 30.3 0 28.2 0 Z M 24 4 h 3 c 0.6 0 1 0.4 1 1 v 3 c 0 0.6 -0.4 1 -1 1 h -3 c -0.6 0 -1 -0.4 -1 -1 V 5 C 23 4.4 23.4 4 24 4 Z M 16 9.9 c 3.4 0 6.2 2.7 6.2 6.1 c 0 3.4 -2.8 6.1 -6.2 6.1 c -3.4 0 -6.2 -2.7 -6.2 -6.1 C 9.9 12.6 12.6 9.9 16 9.9 Z M 28 29 H 4 c -0.6 0 -1 -0.4 -1 -1 V 13 h 4 c -0.5 0.8 -0.7 2.1 -0.7 3 c 0 5.4 4.4 9.7 9.7 9.7 c 5.4 0 9.7 -4.4 9.7 -9.7 c 0 -0.9 -0.1 -2.3 -0.8 -3 h 4 v 15 C 29 28.6 28.6 29 28 29 Z" />
-</svg>
-</a>
-</p>
-<div class="mshow">
-Poetry Resources<br>
-<a href="https://www.poetryfoundation.org/">Poetry Foundation</a>
-<a href="https://www.poets.org/">poets.org</a>
-<a href="https://www.youtube.com/user/ButtonPoetry">Button Poetry</a>
-<a href="http://www.poetryoutloud.org/">Poetry Out Loud</a>
-</div>
-<p>Sponsored by Mrs. Mercer</p>
-<p>ehspoetry@gmail.com</p>
-<p>Website by Robin Luo</p>
-<p>(2017)</p>
+ <a href="https://twitter.com/ehspoetryclub/">
+ <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" enable-background="new 0 0 32 32" viewBox="0 0 32 32" x="0px" y="0px" width="35px" height="35px" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve" version="1.1">
+ <path fill="#444444" d="M 32 6.1 c -1.2 0.5 -2.4 0.9 -3.8 1 c 1.4 -0.8 2.4 -2.1 2.9 -3.6 c -1.3 0.8 -2.7 1.3 -4.2 1.6 C 25.7 3.8 24 3 22.2 3 c -3.6 0 -6.6 2.9 -6.6 6.6 c 0 0.5 0.1 1 0.2 1.5 C 10.3 10.8 5.5 8.2 2.2 4.2 c -0.6 1 -0.9 2.1 -0.9 3.3 c 0 2.3 1.2 4.3 2.9 5.5 c -1.1 0 -2.1 -0.3 -3 -0.8 c 0 0 0 0.1 0 0.1 c 0 3.2 2.3 5.8 5.3 6.4 c -0.6 0.1 -1.1 0.2 -1.7 0.2 c -0.4 0 -0.8 0 -1.2 -0.1 c 0.8 2.6 3.3 4.5 6.1 4.6 c -2.2 1.8 -5.1 2.8 -8.2 2.8 c -0.5 0 -1.1 0 -1.6 -0.1 C 2.9 27.9 6.4 29 10.1 29 c 12.1 0 18.7 -10 18.7 -18.7 c 0 -0.3 0 -0.6 0 -0.8 C 30 8.5 31.1 7.4 32 6.1 Z" />
+ </svg>
+ </a>
+ <a href="https://www.instagram.com/ehspoetry/">
+ <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" enable-background="new 0 0 32 32" viewBox="0 0 32 32" x="0px" y="0px" width="35px" height="35px" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve" version="1.1">
+ <path fill="#444444" d="M 28.2 0 H 3.8 C 1.7 0 0 1.7 0 3.8 v 24.4 C 0 30.3 1.7 32 3.8 32 h 24.4 c 2.1 0 3.8 -1.7 3.8 -3.8 V 3.8 C 32 1.7 30.3 0 28.2 0 Z M 24 4 h 3 c 0.6 0 1 0.4 1 1 v 3 c 0 0.6 -0.4 1 -1 1 h -3 c -0.6 0 -1 -0.4 -1 -1 V 5 C 23 4.4 23.4 4 24 4 Z M 16 9.9 c 3.4 0 6.2 2.7 6.2 6.1 c 0 3.4 -2.8 6.1 -6.2 6.1 c -3.4 0 -6.2 -2.7 -6.2 -6.1 C 9.9 12.6 12.6 9.9 16 9.9 Z M 28 29 H 4 c -0.6 0 -1 -0.4 -1 -1 V 13 h 4 c -0.5 0.8 -0.7 2.1 -0.7 3 c 0 5.4 4.4 9.7 9.7 9.7 c 5.4 0 9.7 -4.4 9.7 -9.7 c 0 -0.9 -0.1 -2.3 -0.8 -3 h 4 v 15 C 29 28.6 28.6 29 28 29 Z" />
+ </svg>
+ </a>
+ <p>ehspoetry@gmail.com</p>
+
+ <p>Website written by Robin Luo</p>
+ <p>(2017)</p>
 </footer>
+</div>
 </div>
 </body>
 
