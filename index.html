@@ -1,102 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <!--
+Simple responsive website by Robin 
+github @robinpx
 
-Simple responsive website written by Robin 
 Internal CSS for easy accessibility with given user
 Icons by Elegant Themes
-
 -->
 <head>
 <title>EHS Poetry Club</title>
 <link rel="shortcut icon" href="https://raw.githubusercontent.com/ehspoetryclub/ehspoetryclub.github.io/master/favicon.ico" type="image/x-icon" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
-<link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
 
 <style type="text/css">
-
-@media only screen and (max-width:765px) {
-	#container {
-		margin:auto 5%!important;
-		width:80%!important;
-	}
-	
-	#title {
-		font-size:25px!important;
-	}
-}
-
 body {
 	background:#f5f5f5;
 	color:#000000;
 	margin:0;
 	padding:0;
-	font-size:15px;
-	font-family:work sans, sans-serif;
+	font-size:calc(12px + 1vmin);
+	font-family:"source serif pro", arial, sans-serif;
 	line-height:150%;
 	letter-spacing:0.05em;
 }
-
 a {
 	color:#888888;
 	text-decoration:none;
 }
-
 a:hover {
 	color:#000000;
 }
 
 #container {
 	text-align:center;
-	width:680px;
+	width:780px;
+	max-width:90%;
 	margin:0px auto;
 	height:100%;
 	padding:2.5% 5%;
 	background:#ffffff;
 }
 	
-#title, h1 {	
-	letter-spacing:0.2em;
+#title {
+	font-size:2.2em;
+	line-height:150%;
+	font-weight:bold;
+	text-transform:uppercase;
+	padding:1% 0%;
 }
 
-#title {
-	font-size:30px;
-	line-height:150%;
-	text-transform:uppercase;
-	font-weight:bold;
-	padding:8% 0%;
-}
+#title, h1 {letter-spacing:0.1em;}
 	
 #title a, #title a:hover {
 	color:#000000;
 }
-
 h1 {
 	color:#94A4C6;
+	font-size:1.8em;
 	line-height:130%;
 	margin-bottom:1em;
-}
-
-nav {
-	text-transform:uppercase;
 }
 
 nav a {
 	margin:1em;
 }
-
 section {
 	margin-bottom:13%;
 }
-
 #links a {
 	display:block;
 }
-
 footer {
 	padding:5% 0%;
 }
-
 footer svg {
 	margin:10px;
 	width:35px!important;
@@ -106,7 +83,6 @@ footer svg {
 .c {
 	font-size:0.8em;
 }
-
 </style>
 
 </head>
@@ -119,7 +95,7 @@ footer svg {
 <nav>
 <a href="http://www.ecusd7.org/ehs/">Back to EHS</a>
 </nav>
-<div id="title"><a href="/">EHS Poetry Club</a></div>
+<h1 id="title"><a href="/">EHS Poetry Club</a></h1>
 </header>
 
 <!-- Main -->
@@ -178,6 +154,7 @@ h91.198V151.997z"/>
 
 </a>
 <p>ehspoetry@gmail.com</p>
+<p>Site made 2017. Reworked 2018.</p>
 </footer>
 </div>
 </body>
